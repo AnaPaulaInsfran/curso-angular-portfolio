@@ -14,6 +14,10 @@ import { IKnowledge } from '../../interface/IKnowledge.interface';
 export class KnowledgeComponent {
    public arrayKnowledge = signal<IKnowledge[]>([
     {
+      src: 'assets/icons/knowledge/sass.svg',
+      alt: 'Ícone de conhecimento de sass'
+    },
+    {
       src: 'assets/icons/knowledge/css3.svg',
       alt: 'Ícone de conhecimento de css3',
     },
